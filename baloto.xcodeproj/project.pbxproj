@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		655474D31CA76D26009F25D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655474D21CA76D26009F25D9 /* AppDelegate.swift */; };
+		655474D51CA76D26009F25D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655474D41CA76D26009F25D9 /* ViewController.swift */; };
+		655474D81CA76D26009F25D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655474D61CA76D26009F25D9 /* Main.storyboard */; };
+		655474DB1CA76D26009F25D9 /* baloto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 655474D91CA76D26009F25D9 /* baloto.xcdatamodeld */; };
+		655474DD1CA76D26009F25D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655474DC1CA76D26009F25D9 /* Assets.xcassets */; };
+		655474E01CA76D26009F25D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655474DE1CA76D26009F25D9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		655474CF1CA76D26009F25D9 /* baloto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baloto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		655474D21CA76D26009F25D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		655474D41CA76D26009F25D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		655474D71CA76D26009F25D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		655474DA1CA76D26009F25D9 /* baloto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = baloto.xcdatamodel; sourceTree = "<group>"; };
+		655474DC1CA76D26009F25D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		655474DF1CA76D26009F25D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		655474E11CA76D26009F25D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		655474CC1CA76D26009F25D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655474C61CA76D26009F25D9 = {
+			isa = PBXGroup;
+			children = (
+				655474D11CA76D26009F25D9 /* baloto */,
+				655474D01CA76D26009F25D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		655474D01CA76D26009F25D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655474CF1CA76D26009F25D9 /* baloto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655474D11CA76D26009F25D9 /* baloto */ = {
+			isa = PBXGroup;
+			children = (
+				655474D21CA76D26009F25D9 /* AppDelegate.swift */,
+				655474D41CA76D26009F25D9 /* ViewController.swift */,
+				655474D61CA76D26009F25D9 /* Main.storyboard */,
+				655474DC1CA76D26009F25D9 /* Assets.xcassets */,
+				655474DE1CA76D26009F25D9 /* LaunchScreen.storyboard */,
+				655474E11CA76D26009F25D9 /* Info.plist */,
+				655474D91CA76D26009F25D9 /* baloto.xcdatamodeld */,
+			);
+			path = baloto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		655474CE1CA76D26009F25D9 /* baloto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655474E41CA76D26009F25D9 /* Build configuration list for PBXNativeTarget "baloto" */;
+			buildPhases = (
+				655474CB1CA76D26009F25D9 /* Sources */,
+				655474CC1CA76D26009F25D9 /* Frameworks */,
+				655474CD1CA76D26009F25D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = baloto;
+			productName = baloto;
+			productReference = 655474CF1CA76D26009F25D9 /* baloto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655474C71CA76D26009F25D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Warner";
+				TargetAttributes = {
+					655474CE1CA76D26009F25D9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 655474CA1CA76D26009F25D9 /* Build configuration list for PBXProject "baloto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 655474C61CA76D26009F25D9;
+			productRefGroup = 655474D01CA76D26009F25D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				655474CE1CA76D26009F25D9 /* baloto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		655474CD1CA76D26009F25D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655474E01CA76D26009F25D9 /* LaunchScreen.storyboard in Resources */,
+				655474DD1CA76D26009F25D9 /* Assets.xcassets in Resources */,
+				655474D81CA76D26009F25D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		655474CB1CA76D26009F25D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655474DB1CA76D26009F25D9 /* baloto.xcdatamodeld in Sources */,
+				655474D51CA76D26009F25D9 /* ViewController.swift in Sources */,
+				655474D31CA76D26009F25D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		655474D61CA76D26009F25D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655474D71CA76D26009F25D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		655474DE1CA76D26009F25D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655474DF1CA76D26009F25D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		655474E21CA76D26009F25D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		655474E31CA76D26009F25D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		655474E51CA76D26009F25D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = baloto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.danywarner.baloto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		655474E61CA76D26009F25D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = baloto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.danywarner.baloto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		655474CA1CA76D26009F25D9 /* Build configuration list for PBXProject "baloto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655474E21CA76D26009F25D9 /* Debug */,
+				655474E31CA76D26009F25D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655474E41CA76D26009F25D9 /* Build configuration list for PBXNativeTarget "baloto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655474E51CA76D26009F25D9 /* Debug */,
+				655474E61CA76D26009F25D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		655474D91CA76D26009F25D9 /* baloto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				655474DA1CA76D26009F25D9 /* baloto.xcdatamodel */,
+			);
+			currentVersion = 655474DA1CA76D26009F25D9 /* baloto.xcdatamodel */;
+			path = baloto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 655474C71CA76D26009F25D9 /* Project object */;
+}
