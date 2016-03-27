@@ -1,0 +1,13 @@
+PODS:
+  - Firebase (2.5.1)
+  - Flurry-iOS-SDK/FlurrySDK (7.5.2)
+
+DEPENDENCIES:
+  - Firebase (>= 2.5.0)
+  - Flurry-iOS-SDK/FlurrySDK
+
+SPEC CHECKSUMS:
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  Flurry-iOS-SDK: 8c87c4eab6008184ad9f63afabd79ec0d109c82e
+
+COCOAPODS: 0.39.0
